@@ -1,6 +1,6 @@
 # Bruno57.Domain.Factory
 
-## 💡 Why Bruno57.Domain.Factory?
+## Why Bruno57.Domain.Factory?
 
 In the realm of Domain-Driven Design, the construction of intricate object structures—particularly aggregates—shouldn't be the responsibility of the domain entities themselves.
 should not be the responsibility of the entities themselves. According to DDD principles:
