@@ -1,11 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <IsPackable>false</IsPackable>
         <IsTestProject>true</IsTestProject>
         <RootNamespace>Ghanavats.Domain.Factory.Tests</RootNamespace>
     </PropertyGroup>
-
     <ItemGroup>
         <PackageReference Include="Bruno57.Domain.Foundations" />
         <PackageReference Include="coverlet.collector"/>
@@ -15,7 +13,6 @@
         <PackageReference Include="xunit.runner.visualstudio"/>
         <PackageReference Include="Moq"/>
     </ItemGroup>
-
     <ItemGroup>
         <ProjectReference Include="..\..\src\Bruno57.Domain.Factory\Bruno57.Domain.Factory.csproj" />
         <AssemblyAttribute Include="System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute"/>
