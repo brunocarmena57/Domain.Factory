@@ -131,8 +131,6 @@ Provides core DDD primitives like EntityBase, as well as helpful attributes like
 ## When This Might Not Be The Right Choice
 The rationale behind this package is to assist developers working on substantial DDD projects with numerous entities and potentially many factories, by automating the object creation process. This eliminates the need for manual factory instantiation; the package handles it for you. You simply specify the desired type and the required property values.
 
-For smaller DDD initiatives or other architectural styles where a limited number of factories are needed, Ghanavats.Domain.Assembler might introduce unnecessary complexity.
-
 Avoid adding complexity without clear benefit.
 
 Keep your solutions straightforward.
